@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3111E101B13F1CB00EFDDDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3111E0F1B13F1CB00EFDDDB /* AVFoundation.framework */; };
 		B37BE12B1B0EBD1F00051F8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B37BE12A1B0EBD1F00051F8B /* main.m */; };
 		B37BE12E1B0EBD1F00051F8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B37BE12D1B0EBD1F00051F8B /* AppDelegate.m */; };
 		B37BE1311B0EBD1F00051F8B /* Mirror.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B37BE12F1B0EBD1F00051F8B /* Mirror.xcdatamodeld */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3111E0F1B13F1CB00EFDDDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B37BE1251B0EBD1F00051F8B /* Mirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37BE1291B0EBD1F00051F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B37BE12A1B0EBD1F00051F8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3111E101B13F1CB00EFDDDB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +68,7 @@
 		B37BE11C1B0EBD1F00051F8B = {
 			isa = PBXGroup;
 			children = (
+				B3111E0F1B13F1CB00EFDDDB /* AVFoundation.framework */,
 				B37BE1271B0EBD1F00051F8B /* Mirror */,
 				B37BE1441B0EBD1F00051F8B /* MirrorTests */,
 				B37BE1261B0EBD1F00051F8B /* Products */,
@@ -303,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,6 +426,7 @@
 				B37BE14D1B0EBD1F00051F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B37BE14E1B0EBD1F00051F8B /* Build configuration list for PBXNativeTarget "MirrorTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +435,7 @@
 				B37BE1501B0EBD1F00051F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
